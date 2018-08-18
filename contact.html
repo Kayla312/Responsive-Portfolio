@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+               
+</head>
+<body>
+    <header id="profilehead">
+        <div class="container">
+        <a href="index.html" id="myBio">
+            Kayla Williams
+        </a>
+            <nav>
+                <a href="index.html">
+                About
+                </a>
+                <a href ="portfolio.html">        
+                Portfolio
+                </a>
+                 <a href ="contact.html">
+                Contact
+                 </a>
+            </nav>
+        </div>
+    </header>
+<!-- puts the whole section inside that pretty little box that is surrounding the name, email, message and submit button -->
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>
+                Contact 
+            </h1>
+            <form id="contact-form">
+                <ul>
+                    <!-- creates a place for someone to input their name -->
+                    <li>
+                        <label for="name">Name</label>
+                        <input 
+                        type="text" 
+                        name="name" 
+                        id="name" 
+                        placeholder="Lyra Belacqua" 
+                        required="required">
+                    </li>
+                    <!-- creates a place for someon to put their email -->
+                    <li>
+                        <label for="email">Email</label>
+                        <input 
+                        type="text" 
+                        name="email" 
+                        id="email" 
+                        placeholder="example@gmail.com" 
+                        required="required">
+                    </li>
+                    <!-- creates a place fro someone to input a message to accompany their information from above -->
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea 
+                        id="message" 
+                        name="message"
+                        required="required">
+                        </textarea>
+                    </li>
+                </ul>
+                <input 
+                type="submit" 
+                name="submit">
+
+            </form>
+        </section>
+        <section class="sidebar">
+            <div id="connect">
+                <h2>
+                    Connect With Me
+                </h2>
+                <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_gray-128.png" class="social" alt="Github">
+                <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_six_gray-128.png" class="social" alt="LinkedIn">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/stackoverflow-128.png" class="social" alt="StackOverflow">
+            </div>
+        </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                &copy; Copywrite 2018 Kayla Williams
+            </div>
+        </footer>
+
+     <!-- adds a line under the header that is just a straight line across the page -->
+     <hr>
+
+     
+     
+    
+
+    
+</body>
+</html>
